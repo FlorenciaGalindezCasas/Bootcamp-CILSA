@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://i.pinimg.com/originals/1b/5d/43/1b5d438d978fad80c3d4ad5c06e336bb.jpg");
+}
+
+.form{
+    padding:3%;
+    background: rgba(0,0,0,0.2);
+    width:30%;  
+    border-radius:8px;    
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap:35px;
+    font-size: 1.2rem;
+    color:white;
+}
+
+input, select{
+   height: 25px;
+   background:none;
+   border:none;
+   border-bottom: 1px solid white;
+   border-radius: 3px;
+   color:white;
+}
+
+::placeholder{
+    color:white
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+option{
+    color:black
+}
+
+.btn{
+    display:flex;
+    justify-content:center;
+    
+}
+
+button{
+    padding: 2%;
+    text-align: center;
+    border-radius:5px;    
+    color: white;
+    background-color:black;
+}
